@@ -74,7 +74,7 @@ enterbutton.addEventListener("click", function () {
   paragraph.addEventListener("click", function () {
     paragraph.style.textDecoration = "line-through";
   });
-  paragraph.addEventListener("dblclick", function () {
+  paragraph.addEventListener("click", function () {
     Textbox.removeChild(paragraph);
   });
 });
