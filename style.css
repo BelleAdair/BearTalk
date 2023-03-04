@@ -172,25 +172,26 @@ input {
 } */
 
 /* Interactive image */
-.illustration:active {
+/* .illustration:active {
   transform: translateY(5px);
 }
-
+ */
 /* Button dip
 - Toggling this class on and off will move it down and up again
 - The button transition property above determines the speed of the translate (500ms)
 */
-.dipped {
+/* .dipped {
   transform: translateY(5px);
-}
+} */
 
 /* Links that open files in the editor */
-.fileopener {
+/* .fileopener {
   cursor:pointer;
   font-weight:bold;
   border-bottom:3px solid var(--color-primary);
   color: var(--color-secondary);
-}
-.fileopener:hover {
+} */
+/* .fileopener:hover {
   border-bottom:3px solid var(--color-secondary);
 }
+ */
