@@ -116,6 +116,12 @@ body {
   background-color: #CBC3E3;
 }
 
+.textposition {
+ position: relative;
+ left: 200px;
+ right: auto;
+}
+
 /* Page structure */
 /* .wrapper {
   min-height: var(--wrapper-height);
