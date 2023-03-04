@@ -61,13 +61,13 @@ Make the "Click me!" button move when the visitor clicks it:
 //   task_actions_el1.classList.add("actions");
 // });
 
-let Enter = document.getElementById("enter");
+let enterbutton = document.getElementById("enter");
 let Textbox = document.getElementById("Textbox");
-let Input = document.getElementById("input1");
+let Input = document.getElementById("Input1");
 
-Enter.addEventListener("click", function() {
+enterbutton.addEventListener("click", function() {
   var paragraph = document.createElement("p");
   paragraph.classList.add('paragraph-styling');
-  paragraph.innerText = Input.nodeValue;
+  paragraph.innerText = Input.Value;
   Textbox.appendChild(paragraph);
-});
+})
