@@ -116,10 +116,23 @@ body {
   background-color: #CBC3E3;
 }
 
+h1, h2, p {
+  text-align: center;
+}
 .textposition {
  position: relative;
- left: 200px;
+ left: 800px;
+ Top: 200px;
  right: auto;
+ 
+}
+
+form[id = "Textbox"] {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
 }
 
 /* Page structure */
@@ -201,3 +214,4 @@ input {
   border-bottom:3px solid var(--color-secondary);
 }
  */
+
