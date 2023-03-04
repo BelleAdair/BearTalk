@@ -220,6 +220,7 @@ input {
   outline: none;
   font-size: 25px;
   vertical-align: middle;
+  padding: 
 }
 
 #enter {
@@ -228,6 +229,7 @@ input {
   border: 1px solid black;
   font-size: 15px;
   vertical-align: middle;
+  border-radius: 50px 50px 50px 50px;
 }
 
 .paragraph-styling {
