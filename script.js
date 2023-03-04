@@ -33,24 +33,23 @@ Make the "Click me!" button move when the visitor clicks it:
 // });
 
 
-const form1 = document.querySelector('#Textbox');
+const form1 = document.querySelector("#Textbox");
 const input1 = document.querySelector('#input1');
-const list_el1 = document.querySelector('#enter');
+const list_el1 = document.querySelector("#enter");
 
- form1.addEventListener('submit', (e) => {
+form1.addEventListener('submit', (e) => {
         e.preventDefault();
 
         const task1 = input1.value;
 
-
-
+      
 
         const task_el1 = document.createElement("div");
-
-        task_el1.classList.add("task1");
+        task_el1.classList.add("enter");
 
         const task_content_el1 = document.createElement("div");
         task_content_el1.classList.add("content");
+
 
         task_el1.appendChild(task_content_el1);
 
@@ -65,6 +64,5 @@ const list_el1 = document.querySelector('#enter');
         const task_actions_el1 = document.createElement("div");
         task_actions_el1.classList.add("actions");
 
-
-		});
-
+      
+    })
