@@ -223,11 +223,10 @@ input {
 }
 
 #enter {
-  height: 50px;
-  width: 50px;
-  horizontal-align: middle;
+  height: relative;
+  width: relative;
   border: 1px solid black;
-  font-size: 30px;
+  font-size: 15px;
   vertical-align: middle;
 }
 
@@ -242,6 +241,13 @@ input {
 }
 
 .container{
-  width: 360px
+  width: 360px;
+  position: relative;
+  left: 800px;
+  top: 200px;
+  right: auto;
+  max-width: 500px;
+  min-width: 300px;
+  
 }
 
