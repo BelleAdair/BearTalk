@@ -67,6 +67,7 @@ let Input = document.getElementById("input1");
 
 Enter.addEventListener("click", function() {
   var paragraph = document.createElement("p");
+  paragraph.classList.add('paragraph-styling');
   paragraph.innerText = Input.nodeValue;
   Textbox.appendChild(paragraph);
 });

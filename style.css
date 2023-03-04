@@ -110,6 +110,7 @@ a:not(.btn--remix):visited {
 END Glitch hello-app default styles
 ******************************************************************************/
 
+html,
 body {
   font-family: Georgia, sans-serif;
   background-color: #cbc3e3;
@@ -209,3 +210,30 @@ input {
   border-bottom:3px solid var(--color-secondary);
 }
  */
+
+#Input {
+  width: 300px;
+  height: 46px;
+  border: 1px solid black;
+  outline: none;
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+#Enter {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.paragraph-styling {
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.to-dos {
+  margin-top: 25px;
+}
