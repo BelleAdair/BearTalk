@@ -119,21 +119,18 @@ body {
 h1, h2, p {
   text-align: center;
 }
+
 .textposition {
  position: relative;
  left: 800px;
  Top: 200px;
  right: auto;
+ max-width: 500px;
+ min-width: 300px;
  
 }
 
-form[id = "Textbox"] {
-  width: 60vw;
-  max-width: 500px;
-  min-width: 300px;
-  margin: 0 auto;
-  padding-bottom: 2em;
-}
+
 
 /* Page structure */
 /* .wrapper {
