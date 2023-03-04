@@ -7,7 +7,6 @@ you're new to CSS they may seem a little complicated, but you can scroll down
 to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 
-
 /* 
   The style rules specify elements by type and by attributes such as class and ID
   Each section indicates an element or elements, then lists the style properties to apply
@@ -113,24 +112,23 @@ END Glitch hello-app default styles
 
 body {
   font-family: Georgia, sans-serif;
-  background-color: #CBC3E3;
+  background-color: #cbc3e3;
 }
 
-h1, h2, p {
+h1,
+h2,
+p {
   text-align: center;
 }
 
 .textposition {
- position: relative;
- left: 800px;
- Top: 200px;
- right: auto;
- max-width: 500px;
- min-width: 300px;
- 
+  position: relative;
+  left: 800px;
+  top: 200px;
+  right: auto;
+  max-width: 500px;
+  min-width: 300px;
 }
-
-
 
 /* Page structure */
 /* .wrapper {
@@ -211,4 +209,3 @@ input {
   border-bottom:3px solid var(--color-secondary);
 }
  */
-
