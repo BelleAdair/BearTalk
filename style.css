@@ -226,7 +226,8 @@ input {
 #enter {
   height: relative;
   width: relative;
-  border: 1px solid black;
+  border: 1px solid grey;
+  Background-color: lightgrey;
   font-size: 15px;
   vertical-align: middle;
   border-radius: 50px 50px 50px 50px;

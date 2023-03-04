@@ -74,13 +74,19 @@ enterbutton.addEventListener("click", function () {
   paragraph.addEventListener("click", function () {
     paragraph.style.textDecoration = "line-through";
   });
-  paragraph.addEventListener("click", function () {
+  paragraph.addEventListener("dblclick", function () {
     Textbox.removeChild(paragraph);
   });
 });
 
 function speak() {
-      const text = document.getElementById('Input1').value;
-      const utterance = new SpeechSynthesisUtterance(text);
-      speechSynthesis.speak(utterance);
-    }
+  const text = document.getElementById("Input1").value;
+  const utterance = new SpeechSynthesisUtterance(text);
+  speechSynthesis.speak(utterance);
+}
+
+function stop() {
+  
+  
+  
+}
