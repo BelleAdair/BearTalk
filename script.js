@@ -32,31 +32,35 @@ Make the "Click me!" button move when the visitor clicks it:
 //   f.onclick = () => { goto(f.dataset.file, f.dataset.line); };
 // });
 
-const form1 = document.querySelector("#Textbox");
-const input1 = document.querySelector("#input1");
-const list_el1 = document.querySelector("#task1");
+// const form1 = document.querySelector("#Textbox");
+// const input1 = document.querySelector("#input1");
+// const list_el1 = document.querySelector("#task1");
 
-form1.addEventListener("submit", (e) => {
-  e.preventDefault();
+// form1.addEventListener("submit", (e) => {
+//   e.preventDefault();
 
-  const task1 = input1.value;
+//   const task1 = input1.value;
 
-  const task_el1 = document.createElement("div");
-  task_el1.classList.add("Task");
+//   const task_el1 = document.createElement("div");
+//   task_el1.classList.add("Task");
 
-  const task_content_el1 = document.createElement("div");
-  task_content_el1.classList.add("content");
+//   const task_content_el1 = document.createElement("div");
+//   task_content_el1.classList.add("content");
 
-  task_el1.appendChild(task_content_el1);
+//   task_el1.appendChild(task_content_el1);
 
-  const task_input_el1 = document.createElement("input");
-  task_input_el1.classList.add("text");
-  task_input_el1.type = "text";
-  task_input_el1.value = task1;
-  task_input_el1.setAttribute("readonly", "readonly");
+//   const task_input_el1 = document.createElement("input");
+//   task_input_el1.classList.add("text");
+//   task_input_el1.type = "text";
+//   task_input_el1.value = task1;
+//   task_input_el1.setAttribute("readonly", "readonly");
 
-  task_content_el1.appendChild(task_input_el1);
+//   task_content_el1.appendChild(task_input_el1);
 
-  const task_actions_el1 = document.createElement("div");
-  task_actions_el1.classList.add("actions");
-});
+//   const task_actions_el1 = document.createElement("div");
+//   task_actions_el1.classList.add("actions");
+// });
+
+let Enter =document.getElement("enter")
+let Input = document.getElement("input1")
+let Textbox = document.getElement("Textbox")
