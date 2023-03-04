@@ -214,13 +214,13 @@ input {
 
 
 #Input {
-  width: 300px;
-  height: 46px;
+  
   border: 1px solid black;
   outline: none;
   font-size: 25px;
   vertical-align: middle;
-  padding: 
+  border-radius: 50px 50px 50px 50px;
+  padding: 100px;
 }
 
 #enter {
