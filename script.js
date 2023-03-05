@@ -89,10 +89,15 @@ function pause(){
   speechSynthesis.pause();
 }
 
+function resume(){
+  speechSynthesis.resume();
+}
+
 function stop(){
   speechSynthesis.cancel();
   
 }
+
 
 
 

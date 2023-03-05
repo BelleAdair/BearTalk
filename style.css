@@ -113,13 +113,13 @@ END Glitch hello-app default styles
 html,
 body {
   font-family: Georgia, sans-serif;
-  background-color: #cbc3e3;
+  background-color: #f0dfc6;
 }
 
 h1,
 h2,
 p {
-  text-align: left;
+  text-align: center;
 }
 
 .textposition {
@@ -257,7 +257,7 @@ input {
   width: 360px;
   position: relative;
   left: 600px;
-  top: 200px;
+  bottom: 200px;
   right: auto;
   max-width: 500px;
   min-width: 300px;
@@ -265,8 +265,11 @@ input {
 }
 
 .img{
-  width: 700px;
+  width: 500px;
   height: 500px;
+  position: relative;
+  left: 600px;
+  Top:200px;
   text-align: center;
   
 }
