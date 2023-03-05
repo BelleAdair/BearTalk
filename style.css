@@ -7,7 +7,7 @@ body {
   background-image: url('https://cdn.glitch.global/6d9814c8-f833-4fa6-b605-a535d06096da/Untitled-5.jpg?v=1677980173104');
 
   height: 100%;
-  background-position: center;
+  background-position:fixed;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -146,10 +146,12 @@ input {
   font-size: 20px;
   color: black;
   font-weight: bold;
+  
 }
 
 .to-dos {
   margin-top: 25px;
+  position:fixed;
 }
 
 .container{

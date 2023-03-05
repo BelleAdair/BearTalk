@@ -1,27 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
-    <!--  <form id = "new-task-form1"> 
-        <input 
-            type="text"  
-            id = "new-task-input1"
-            placeholder = "put a task here" />
-        <input
-            type = "submit"
-            id="new-task-submit"
-            value="Add task" />
-        </form> -->
-
-    <!--     <div class="textposition">
-      <form id="Textbox">
-        <input type="text" id="input1" placeholder="Enter Text..." size="50" />
-        <input type="submit" id="enter" value="Talk" />
-      </form>
-    </div> -->
+   
     <link href="reset.css" rel="stylesheet" type="text/css" />
     <link href="reset-webview.css" rel="stylesheet" type="text/css" />
 
@@ -30,34 +10,16 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
 
-    <!--
-      This is the page head - it contains info the browser uses
-      Like the title, which appears on the browser tab but not inside the page
-      Further down you'll see the content that displays in the page
-    -->
     <title>Text-to-Speech Web Application</title>
 
-    <!-- The website stylesheet -->
     <link rel="stylesheet" href="/style.css" />
   </head>
 
   <body>
-    <!--
-      The body includes the content you see in the page
-      Each element is defined using tags, like this <div></div>
-      The attributes like class="wrapper" let us style elements in the CSS
-    -->
 
-    
     <div class="container">
-      <input
-        id="Input1"
-        type="text"
-        placeholder="Enter a Text..."
-        size="45"
-       
-      />
-      
+      <input id="Input1" type="text" placeholder="Enter a Text..." size="45" />
+
       <button id="enter" onclick="speak()">voice</button>
       <button id="stop" onclick="stop()">stop</button>
       <div class="to-dos" id="Textbox"></div>
@@ -66,12 +28,5 @@
     <!-- The website JavaScript file -->
     <script src="/script.js" defer></script>
 
-    <!--
-    <main>
-      <section class="task-list1">
-        <div id="tasks1"></div>
-      </section>
-    </main>
-    -->
   </body>
 </html>
