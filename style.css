@@ -228,11 +228,21 @@ input {
   width: relative;
   border: 1px solid grey;
   Background-color: lightgrey;
-  font-size: 15px;
+  font-size: 20px;
   vertical-align: middle;
   border-radius: 50px 50px 50px 50px;
 }
 
+#stop {
+  height: relative;
+  width: relative;
+  border: 1px solid grey;
+  Background-color: lightgrey;
+  font-size: 20px;
+  vertical-align: middle;
+  border-radius: 50px 50px 50px 50px;
+  
+}
 .paragraph-styling {
   margin: 0;
   cursor: pointer;
@@ -254,3 +264,9 @@ input {
   
 }
 
+.img{
+  width: 700px;
+  height: 500px;
+  text-align: center;
+  
+}

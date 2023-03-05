@@ -85,8 +85,14 @@ function speak() {
   speechSynthesis.speak(utterance);
 }
 
+function pause(){
+  speechSynthesis.pause();
+}
+
 function stop(){
   speechSynthesis.cancel();
   
 }
+
+
 
