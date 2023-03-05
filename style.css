@@ -119,14 +119,8 @@ body {
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: relative;
+  background-size: contain;
 }
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 
 
 
@@ -268,8 +262,8 @@ input {
 
 .container{
   width: 360px;
-  position: relative;
-  left: 800px;
+  position: absolute;
+  left: 550px;
   bottom: 500px;
   right: auto;
   max-width: 500px;
