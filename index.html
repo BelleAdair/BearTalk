@@ -16,16 +16,18 @@
             value="Add task" />
         </form> -->
 
-<!--     <div class="textposition">
+    <!--     <div class="textposition">
       <form id="Textbox">
         <input type="text" id="input1" placeholder="Enter Text..." size="50" />
         <input type="submit" id="enter" value="Talk" />
       </form>
-    </div> --> 
+    </div> -->
+    <link href="reset.css" rel="stylesheet" type="text/css" />
+    <link href="reset-webview.css" rel="stylesheet" type="text/css" />
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
 
     <!--
@@ -37,32 +39,34 @@
 
     <!-- The website stylesheet -->
     <link rel="stylesheet" href="/style.css" />
-
   </head>
-  
+
   <body>
     <!--
       The body includes the content you see in the page
       Each element is defined using tags, like this <div></div>
       The attributes like class="wrapper" let us style elements in the CSS
     -->
-    
-  <!--<img class = "img" src = "https://cdn.glitch.global/6d9814c8-f833-4fa6-b605-a535d06096da/Background1.png?v=1677974663561"/>-->
-  <!--<img class ="img" src = "https://cdn.glitch.global/6d9814c8-f833-4fa6-b605-a535d06096da/Untitled-1.png?v=1677974999014" /> -->
- 
-  
-     <div class = "container">
-      <input id = "Input1" type = "text" placeholder ="Enter a Text..." size = "45"><button id = "enter" onclick="speak()">voice</button>
-       <button id = "stop" onclick = "stop()">stop</button> 
-        <!--<button id = "pause" onclick = "pause()">pause</button> 
+
+    <!--<img class = "img" src = "https://cdn.glitch.global/6d9814c8-f833-4fa6-b605-a535d06096da/Background1.png?v=1677974663561"/>-->
+    <!--< class ="img" src = "https://cdn.glitch.global/6d9814c8-f833-4fa6-b605-a535d06096da/Untitled-1.png?v=1677974999014" /> -->
+
+    <div class="container">
+      <input
+        id="Input1"
+        type="text"
+        placeholder="Enter a Text..."
+        size="45"
+      /><button id="enter" onclick="speak()">voice</button>
+      <button id="stop" onclick="stop()">stop</button>
+      <!--<button id = "pause" onclick = "pause()">pause</button> 
          <button id = "resume" onclick = "resume()">resume</button> -->
-      <div class = "to-dos" id = "Textbox">
-      </div>
+      <div class="to-dos" id="Textbox"></div>
     </div>
-    
+
     <!-- The website JavaScript file -->
     <script src="/script.js" defer></script>
-    
+
     <!--
     <main>
       <section class="task-list1">
